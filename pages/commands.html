@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/logo.png">
+    <title>DAL BOT (Official) - ALL IN ONE Bot</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo.png" alt="" width="50" height="50" class="rounded-circle"> &nbsp;
+                <span>DAL Bot</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#/">Commands</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="linksdrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Links
+                        </a>
+                        <ul class="dropdown-menu bgn" aria-labelledby="linksdrop">
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="https://linktr.ee/dalmusicbot" target="_blank">Invite
+                                    Bot</a>
+                            </li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="https://discord.gg/Rrn6jdjvzd" target="_blank">Support
+                                    Server</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-muted font-weight-bold"
+                                    href="https://github.com/Kawaii-bot-TH" target="_blank">Official Github</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="jumbotron text-center bg-transparent">
+        <h1 class="commandstitle">ALL Commands</h1>
+        <p class="lead commandssub">ดูคำสั่งทั้งหมดของ DAL</p>
+        <hr>
+        <input id="myInput" type="text" class="searchbox" placeholder="ค้นหาคำสั่ง ตัวอย่าง(setup)">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="border"></div>
+        <br>
+        <br>
+        <br>
+        <div id="myCmd">
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(229, 255, 0);">setup<span> - (Premium)สร้างห้องสำหรับเปิดเพลง </span></button>
+            <div class="content">
+                <h4 style="color: rgb(229, 255, 0);">Category:</h4>
+                <p style="color: rgb(229, 255, 0);">Config</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/setup</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/setup</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(229, 255, 0);">config<span> - ใช้งานเพื่อดูการตั้งค่า </span></button>
+            <div class="content">
+                <h4 style="color: rgb(229, 255, 0);">Category:</h4>
+                <p style="color: rgb(229, 255, 0);">Config</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/config</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/config</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(229, 255, 0);">dj<span> - ใช้งานเพื่อตั้งค่า Dj </span></button>
+            <div class="content">
+                <h4 style="color: rgb(229, 255, 0);">Category:</h4>
+                <p style="color: rgb(229, 255, 0);">Config</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/dj (การตั้งค่า)</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/dj (การตั้งค่า)</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(43, 255, 0);">filters<span> - (Premium)เพิ่มลูกเล่นให้กับการเล่นเพลง</span></button>
+            <div class="content">
+                <h4 style="color: rgb(43, 255, 0);">Category:</h4>
+                <p style="color: rgb(43, 255, 0);">Filters</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/filters (filters name)</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/filters (filters name)</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(4, 0, 255);">desktopwallpaper<span> - wallpaper สำหรับ windown / mac / linux </span></button>
+            <div class="content">
+                <h4 style="color: rgb(4, 0, 255);">Category:</h4>
+                <p style="color: rgb(4, 0, 255);">Image</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/desktopwallpaper</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/desktopwallpaper</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(4, 0, 255);">mobilewallpaper<span> - wallpaper สำหรับ android / ios </span></button>
+            <div class="content">
+                <h4 style="color: rgb(4, 0, 255);">Category:</h4>
+                <p style="color: rgb(4, 0, 255);">Image</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/mobilewallpaper</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/mobilewallpaper</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(4, 0, 255);">foxgirl<span> - foxgirl !!! </span></button>
+            <div class="content">
+                <h4 style="color: rgb(4, 0, 255);">Category:</h4>
+                <p style="color: rgb(4, 0, 255);">Image</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/foxgirl</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/foxgirl</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(4, 0, 255);">hug<span> - กอด!!! </span></button>
+            <div class="content">
+                <h4 style="color: rgb(4, 0, 255);">Category:</h4>
+                <p style="color: rgb(4, 0, 255);">Image</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/hug</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/hug</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(4, 0, 255);">kiss<span> - Anime Kiss >:P </span></button>
+            <div class="content">
+                <h4 style="color: rgb(4, 0, 255);">Category:</h4>
+                <p style="color: rgb(4, 0, 255);">Image</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/kiss</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/kiss</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(4, 0, 255);">meme<span> - Random meme </span></button>
+            <div class="content">
+                <h4 style="color: rgb(4, 0, 255);">Category:</h4>
+                <p style="color: rgb(4, 0, 255);">Image</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/meme</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/meme</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(4, 0, 255);">neko<span> - neko Anime น่ารักนะ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(4, 0, 255);">Category:</h4>
+                <p style="color: rgb(4, 0, 255);">Image</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/neko</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/neko</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(4, 0, 255);">pat<span> - anime ลูปหัว </span></button>
+            <div class="content">
+                <h4 style="color: rgb(4, 0, 255);">Category:</h4>
+                <p style="color: rgb(4, 0, 255);">Image</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/pat</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/pat</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(4, 0, 255);">slap<span> - Anime ตบหน้า </span></button>
+            <div class="content">
+                <h4 style="color: rgb(4, 0, 255);">Category:</h4>
+                <p style="color: rgb(4, 0, 255);">Image</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/slap</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/slap</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(19, 207, 207);">botinfo<span> - ดูสถาณะ bot </span></button>
+            <div class="content">
+                <h4 style="color: rgb(19, 207, 207);">Category:</h4>
+                <p style="color: rgb(19, 207, 207);">Information</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/botinfo</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/botinfo</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(19, 207, 207);">credit<span> - credit ของ bot </span></button>
+            <div class="content">
+                <h4 style="color: rgb(19, 207, 207);">Category:</h4>
+                <p style="color: rgb(19, 207, 207);">Information</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/credit</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/credit</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(19, 207, 207);">invite<span> - รับลิ้งค์เชิญ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(19, 207, 207);">Category:</h4>
+                <p style="color: rgb(19, 207, 207);">Information</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/invite</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/invite</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(19, 207, 207);">ping<span> - !!PINGPONG!! </span></button>
+            <div class="content">
+                <h4 style="color: rgb(19, 207, 207);">Category:</h4>
+                <p style="color: rgb(19, 207, 207);">Information</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/ping</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/ping</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(19, 207, 207);">serverinfo<span> - สถานะเครื่อง Server </span></button>
+            <div class="content">
+                <h4 style="color: rgb(19, 207, 207);">Category:</h4>
+                <p style="color: rgb(19, 207, 207);">Information</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/serverinfo</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/serverinfo</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">autoplay<span> - (Premium)เล่น AUTO </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/autoplay</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/autoplay</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">clearqueue<span> - ลบเพลงออกจากคิว+ทั้งหมด+ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/clearqueue</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/clearqueue</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">grab<span> - รับข้อมูลเพลงที่กำลังเล่นอยู่ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/grab</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/grab</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">loop<span> - loop เพลง </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/loop {loop mode}</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/loop song</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">nowplaying<span> - ดูเพลงที่กำลังอยู่ ณ ตอนนั้น </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/nowplaying</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/nowplaying</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">pause<span> - หยุดการเพลง </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/pause</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/pause</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">play<span> - เปิดเพลง </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/play {URL / ชื่อ}</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/play ผิงไฟ</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">queue<span> - ดูคิวเพลง </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/queue</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/queue</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">search<span> - ค้นหาเพลง </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/search {ชื่อ}</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/search ผิงไฟ</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">skip<span> - ข้ามเพลงที่เล่น </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/skip</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/skip</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">stop<span> - หยุดการเล่นเพลง </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/stop</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/stop</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(0, 245, 102);">volume<span> - เปลี่ยนระดับเสียงเพลง </span></button>
+            <div class="content">
+                <h4 style="color: rgb(0, 245, 102);">Category:</h4>
+                <p style="color: rgb(0, 245, 102);">Music</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/volume {ระดับ}</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/volume 125</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(255, 0, 0);">yuri<span> - (premium)Anime yuri NSFW นะ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(255, 0, 0);">Category:</h4>
+                <p style="color: rgb(255, 0, 0);">Nsfw</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/yuri</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/yuri</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(255, 0, 0);">ass<span> - Anime NSFW ass นะ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(255, 0, 0);">Category:</h4>
+                <p style="color: rgb(255, 0, 0);">Nsfw</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/ass</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/ass</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(255, 0, 0);">boobs<span> - Anime boobs นะ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(255, 0, 0);">Category:</h4>
+                <p style="color: rgb(255, 0, 0);">Nsfw</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/boobs</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/boobs</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(255, 0, 0);">glasses<span> - Anime NSFW glasses นะ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(255, 0, 0);">Category:</h4>
+                <p style="color: rgb(255, 0, 0);">Nsfw</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/glasses</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/glasses</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(255, 0, 0);">hentai<span> - (premium)Hentai GIF นะ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(255, 0, 0);">Category:</h4>
+                <p style="color: rgb(255, 0, 0);">Nsfw</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/hentai</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/hentai</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(255, 0, 0);">lesbian<span> - Anime NSFW lesbian นะ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(255, 0, 0);">Category:</h4>
+                <p style="color: rgb(255, 0, 0);">Nsfw</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/lesbian</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/lesbian</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(255, 0, 0);">maid<span> - (premium)Anime NSFW maid นะ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(255, 0, 0);">Category:</h4>
+                <p style="color: rgb(255, 0, 0);">Nsfw</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/maid</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/maid</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(255, 0, 0);">pussy<span> - Anime NSFW pussy นะ </span></button>
+            <div class="content">
+                <h4 style="color: rgb(255, 0, 0);">Category:</h4>
+                <p style="color: rgb(255, 0, 0);">Nsfw</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/pussy</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/pussy</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="color: rgb(217, 255, 0);">redeem<span> - redeem premium code </span></button>
+            <div class="content">
+                <h4 style="color: rgb(235, 247, 169);">Category:</h4>
+                <p style="color: rgb(251, 255, 0);">Premium</p>
+                <h4 style="color: #cccccc;">ใช้งาน:</h4>
+                <p>/redeem {code}</p>
+                <h4 style="color: #cccccc;">ตัวอย่าง:</h4>
+                <p>/redeem A4DC-M9IK-PEUG</p>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    </div>
+
+    <footer class="mastfoot mb-auto">
+            <div class="container-fluid mb-auto">
+                <div class="row d-flex justify-content-center">
+                    <div class="">
+                        <p style="font-size: 19px; padding: 0px; margin: 0px;"><a href="https://github.com/Kawaii-bot-TH"
+                                style="text-decoration: none; color: white;">DAL BOT GROUP ©2022. ALL</a></br>Hbot ©
+                            2021. All
+                            rights reserved.</br>[<a href="./license.html"><b>Terms Of Use</b></a>]</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
