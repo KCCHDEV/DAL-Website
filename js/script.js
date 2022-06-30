@@ -1,7 +1,7 @@
-console.log("make by Vins 2106 - source code available on github (Vins2106)");
+console.log("Based by Vins 2106 - edit by KCCHDEV");
 
 setInterval(() => {
-	console.log("Based code by Vins 2106 - source code available on github (Vins2106)");
+	console.log("No Data to you copy SORRY");
 }, 10000)
 
 let nt = document.getElementById("toggler");
